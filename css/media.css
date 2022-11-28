@@ -1,0 +1,497 @@
+@media (max-width: 1024px) {
+  body {
+    width: 1024px;
+  }
+
+  .header {
+    width: 1440px;
+  }
+
+  .logo {
+  
+    cursor: pointer;
+  }
+
+  .logo:focus {
+    padding: 5px;
+    border: 1px solid var(--great);
+    border-radius: 5px;
+  }
+
+  .logo:hover {
+    padding: 5px;
+    border: 1px solid #f8c2b4;
+    border-radius: 5px;
+  }
+
+  .bar-list {
+    position: absolute;
+    top: 40px;
+    left: -1295px;
+    padding: 15px;
+    min-width: 300px;
+    width: 400px;
+    box-shadow: 3px 3px 5px #000;
+    background-color: var(--white);
+    border-radius: 5px;
+  }
+
+  .nav-bar {
+    visibility: hidden;
+    position: relative;
+    transition: visibility .3s ease-in-out;
+  }
+
+  .bar-item:not(:last-child) {
+    margin-right: 25px;
+    padding-right: 10px;
+    border-right: 1px solid var(--pinky);
+  } 
+
+  .nav-link {
+    width: fit-content;
+    font-size: 15px;
+  }
+
+  .bar-active {
+    visibility: visible;
+    transition: visibility .3s ease-in-out;
+  }
+
+  main  {
+    padding: 0 70px 0 70px;
+  }
+
+  .swiper-title {
+    padding-top: 150px;
+  }
+
+  .main-descr {
+    border-radius: 10px;
+  }
+
+  .sweet-item {
+    width: 400px;
+    min-height: 270px;
+  }
+
+  iframe {
+    width: 400px;
+    height: 400px;
+  }
+
+  .footer {
+    width: 1024px;
+  }
+}
+
+@media (max-width: 762px) {
+  body {
+    width: 762px;
+    background-image: url('../img/holly-stratton-unsplash-cup-762.jpg');
+  }
+
+  .header {
+    padding: 5px 30px 5px 30px;
+  }
+
+  .bar-list {
+    position: absolute;
+    top: 40px;
+    left: -800px;
+    padding: 15px;
+    min-width: 300px;
+    width: 400px;
+    box-shadow: 3px 3px 5px #000;
+    background-color: var(--white);
+    border-radius: 5px;
+  }
+
+  .nav-bar {
+    visibility: hidden;
+    position: relative;
+    transition: visibility .3s ease-in-out;
+  }
+
+  .bar-item:not(:last-child) {
+    margin-right: 25px;
+    padding-right: 10px;
+    border-right: 1px solid var(--pinky);
+  } 
+
+  .nav-link {
+    width: fit-content;
+    font-size: 15px;
+  }
+
+  .bar-active {
+    visibility: visible;
+    transition: visibility .3s ease-in-out;
+  }
+
+  .swiper {
+    width: 570px;
+    height: 580px;
+  }
+
+  .main-descr {
+    font-size: 30px;
+    width: 83%; 
+  }
+
+  .sweet-item:not(:nth-child(2n)) {
+    margin-right: 0;
+  }
+
+  iframe {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer {
+    width: 762px;
+  }
+}
+
+@media (max-width: 755px) {
+  body {
+    max-width: 755px;
+  }
+
+  .bar-list {
+    left: -1315px;
+  }
+
+  main  {
+    padding: 0 80px 0 80px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    max-width: 576px;
+    background-image: url('../img/holly-stratton-unsplash-cup-576.jpg');
+  }
+
+  .header {
+    margin-bottom: 0;
+    padding: 5px 10px 5px 10px;
+    max-width: 576px;
+  }
+
+  .bar-list {
+    flex-direction: column;
+    top: 35px;
+    left: -1410px;
+    min-width: 100px;
+    width: 140px;
+  }
+
+  .bar-item {
+    width: fit-content;
+    border-bottom: 1px solid var(--pinky);
+  }
+
+  .bar-item:not(:last-child) {
+    border-right: none;
+    margin-bottom: 20px;
+  }
+
+  main {
+    margin-top: 40px;
+    padding: 0 80px 0 80px;
+  }
+
+  .main-title {
+    max-width: 200px;
+    font-size: 15px;
+  }
+
+  #about .container {
+    margin: 0 auto;
+    max-width: 576px;
+  }
+
+  .swiper {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 200px;
+  } 
+
+  .swiper-slide:nth-of-type(3) {
+    background-image: url('../img/toa-heftiba-unsplash-576.jpg');
+  }
+
+  .swiper-slide:nth-of-type(1),
+  .swiper-slide:nth-of-type(4) {
+    background-image: url('../img/nathan-dumlao-unsplash-576.jpg');
+  }
+
+  .swiper-slide:nth-of-type(2),
+  .swiper-slide:nth-of-type(5) {
+    background-image: url('../img/drew-coffman-unsplash-576.jpg');
+  }
+
+  .swiper-button-next::after {
+    transform: translateX(16px) scale(0.5);
+  }
+
+  .swiper-button-prev::after {
+    transform: translateX(-16px) scale(0.5)
+  }
+
+  .swiper-title {
+    display: none;
+  }
+
+  .main-descr {
+    padding: 10px;
+    left: 20px;
+    bottom: 5px;
+    font-size: 15px;
+    width: 80%;
+    min-height: 30%;
+    border-radius: 5px;
+  }
+
+  .products {
+    margin-top: -70px;
+  }
+
+  .quality {
+    max-width: 576px;
+  }
+
+  .list-title {
+    width: 60%;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  .pro-descr {
+    width: 100%;
+  }
+
+  .quality:first-child .icon,
+  .quality:nth-child(2) .icon,
+  .quality:last-child .icon  {
+    top: 10px;
+    left: 0;
+  }
+
+  .sweet-title {
+    text-align: center;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .sweet-list {
+    flex-direction: column;
+    align-items: center ;
+  }
+
+  .sweet-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .sweet-text {
+    padding-left: 0;
+  }
+
+  .sweet-item-visible .sweet-text {
+    position: relative;
+  }
+
+ .sweet-item-visible .sweet-min-title {
+    position: absolute;
+    top: 10px;
+    left: -190px;
+    font-family: cursive;
+    max-width: 200px;
+    min-height: 10px;
+    border-style: none;
+    color: var(--white);
+  }
+
+  .btn {
+    text-align: center;
+  }
+
+  .movie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  iframe:first-child {
+    transform: translateX(5%);
+  }
+
+  .footer {
+    max-width: 576px;
+  }
+
+  .links-list {
+    flex-direction: column;
+    transform: translateX(30%);
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    margin: 0;
+    max-width: 480px;
+    background-image: url('../img/holly-stratton-unsplash-cup-480.jpg');
+  }
+
+  .header {
+    max-width: 480px;
+  }
+
+  .bar-list {
+    left: -465px;
+  }
+
+  .swiper {
+    width: 250px;
+  }
+
+  .swiper-wrapper .swiper-slide {
+    width: 250px;
+  }
+
+  .swiper-slide:nth-of-type(3) {
+    background-image: url('../img/toa-heftiba-unsplash-250.jpg');
+  }
+
+  .swiper-slide:nth-of-type(1),
+  .swiper-slide:nth-of-type(4) {
+    background-image: url('../img/nathan-dumlao-unsplash-250.jpg');
+  }
+
+  .swiper-slide:nth-of-type(2),
+  .swiper-slide:nth-of-type(5) {
+    background-image: url('../img/drew-coffman-unsplash-250.jpg');
+  }
+
+  .swiper-button-next::after {
+    transform: translateX(16px) scale(0.5);
+  }
+
+  .swiper-button-prev::after {
+    transform: translateX(-16px) scale(0.5)
+  }
+
+  .swiper-title {
+    display: none;
+  }
+
+  .main-descr {
+    left: 1%;
+    bottom: 1%;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: 90%;
+  }
+
+  .products {
+    margin-top: -70px;
+  }
+
+  .quality {
+    max-width: 480px;
+  }
+
+  .list-title {
+    width: 70%;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .pro-descr {
+    width: 100%;
+  }
+
+  .quality:first-child .icon,
+  .quality:nth-child(2) .icon,
+  .quality:last-child .icon {
+    top: 10px;
+    left: 0;
+  }
+
+  .sweet-item {
+    position: relative;
+  }
+
+  .description {
+    display: none;
+  }
+
+  .sweet-list {
+    flex-direction: column;
+  }
+
+  .sweet-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+
+  .sweet-item-visible .sweet-text {
+    position: relative;
+  }
+
+ .sweet-item-visible .sweet-min-title {
+    position: absolute;
+    top: 10px;
+    left: -190px;
+    font-family: cursive;
+    max-width: 200px;
+    min-height: 10px;
+    border-style: none;
+    color: var(--white);
+  }
+
+
+  .btn-menu:hover::after {
+    opacity: 0;
+  }
+
+  .movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  iframe:first-child {
+    transform: translateX(5%);
+  }
+
+  iframe {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer {
+    max-width: 480px;
+  }
+
+  .links-list {
+    flex-direction: column;
+    transform: translateX(30%);
+  }
+}
