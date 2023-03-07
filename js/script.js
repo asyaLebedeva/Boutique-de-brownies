@@ -1,5 +1,3 @@
-
-
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
   loop: true,
@@ -15,13 +13,13 @@ const menuItems = document.querySelectorAll('.sweet-list').length
 let items = 4
 
 btnMore.addEventListener('click', () => {
-	items += 2;
+	items += 1;
 	const array = Array.from(document.querySelector('.sweet-list').children);
 	const visItems = array.slice(0, items);
 
 	visItems.forEach(el => el.classList.add('sweet-item-visible'));
 
-	if (items === 8) {
+	if (items === 9) {
 		btnMore.textContent = "Bienvenue!";
 	}
 });
