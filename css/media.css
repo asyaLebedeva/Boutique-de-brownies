@@ -133,15 +133,15 @@
   }
 
   .swiper-wrapper .one-slide {
-    background-image: url('../img/nathan-dumlao-unsplash-576.jpg');
+    background-image: url('../img/nathan-dumlao-unsplash-576.webp');
   }
 
   .swiper-wrapper .two-slide {
-    background-image: url('../img/drew-coffman-unsplash-576.jpg');
+    background-image: url('../img/drew-coffman-unsplash-576.webp');
   }
 
   .swiper-wrapper .three-slide {
-    background-image: url('../img/toa-heftiba-unsplash-576.jpg');
+    background-image: url('../img/toa-heftiba-unsplash-576.webp');
   }
 
   .swiper-button-next,
@@ -346,14 +346,14 @@
   }
   
   .swiper-wrapper .one-slide {
-    background-image: url('../img/nathan-dumlao-unsplash-250.jpg');
+    background-image: url('../img/nathan-dumlao-unsplash-250.webp');
   }
 
   .swiper-wrapper .two-slide {
-    background-image: url('../img/drew-coffman-unsplash-250.jpg');
+    background-image: url('../img/drew-coffman-unsplash-250.webp');
   }
 
   .swiper-wrapper .three-slide {
-    background-image: url('../img/toa-heftiba-unsplash-250.jpg');
+    background-image: url('../img/toa-heftiba-unsplash-250.webp');
   }
 }

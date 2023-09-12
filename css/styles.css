@@ -27,7 +27,7 @@ body {
   margin: 0;
   font-family: 'Nanum Myeongjo', serif;
   background: #afa7a4 no-repeat;
-  background-image: url('../img/holly-stratton-unsplash-cup.jpg');
+  background-image: url('../img/holly-stratton-unsplash-cup.webp');
   background-size: cover;
   overflow-x: hidden;
 }
@@ -186,16 +186,16 @@ main  {
 }
 
 .swiper-wrapper .one-slide {
-  background-image: url('../img/nathan-dumlao-unsplash.jpg');
+  background-image: url('../img/nathan-dumlao-unsplash.webp');
 }
 
 .swiper-wrapper .two-slide {
-  background-image: url('../img/drew-coffman-unsplash.jpg');
+  background-image: url('../img/drew-coffman-unsplash.webp');
   background-size: cover;
 }
 
 .swiper-wrapper .three-slide {
-  background-image: url('../img/toa-heftiba-unsplash.jpg');
+  background-image: url('../img/toa-heftiba-unsplash.webp');
   background-size: cover;
 }
 
@@ -487,6 +487,7 @@ footer {
 }
 
 .links-item {
+  min-width: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
