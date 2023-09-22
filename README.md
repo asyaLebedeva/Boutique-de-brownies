@@ -1,10 +1,10 @@
 # yummy
 Product landing
 
-In this case presents product landing of sweet store & cafe.
+In this case presents the product landing of a sweet store & cafe.
 
-- The ***top-logo*** works like as button in media-query, and opens nav-bar.
-- The design of project created by myself/without layout.
+- The ***top-logo*** works like a button in a media query and opens the nav bar.
+- The design of the project was created without layout.
 - Adaptive, dropdown menu, Swiper.
-- Embeded movies.
+- Embedded movies.
 - Img and icons sources: [Freepik](https://www.freepik.com/).
