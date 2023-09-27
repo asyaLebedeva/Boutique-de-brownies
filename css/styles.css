@@ -74,19 +74,13 @@ button {
 }
 
 header {
+  margin: 0 auto;
   position: fixed;
   top: 0;
-  margin: 0 auto;
-  margin-bottom: var(--large);
-  width: 115%;
-  min-height: 50px;
-  background-color: var(--white);
-  -webkit-box-shadow: 0 1px 15px 1px #f8c2b4;
-          box-shadow: 0 1px 15px 1px #f8c2b4;
-  z-index: 1000;
+  z-index: 10;
 }
 
-.header {
+header .container {
   padding: 0 70px 0 70px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,6 +88,14 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
   align-items: center;
+  width: 1920px;
+  margin-bottom: var(--large);
+  min-height: 50px;
+  background-color: var(--white);
+  -webkit-box-shadow: 0 1px 15px 1px #f8c2b4;
+          box-shadow: 0 1px 15px 1px #f8c2b4;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .logo {
